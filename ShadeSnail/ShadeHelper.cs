@@ -65,6 +65,13 @@ namespace ShadeSnail
                     DestroyShade();
                 }
             }
+
+            GameObject shadeMusic = UnityEngine.GameObject.Find("Shade");
+            if (shadeMusic != null)
+            {
+                AudioSource audioSource = shadeMusic.GetComponent<AudioSource>();
+                audioSource.mute = ShadeSnail.globalSettings.spawnShade;
+            }
         }
 
         /// <summary>

@@ -12,6 +12,9 @@ If the player manages to get far enough away, it will respawn nearby.
 MsGreen419 and true_iron_killer for testing and feedback
 
 ## Patch Notes
+1.2.0.0
+- Modified Shade music to mute while Shade Snail is active
+
 1.1.0.0
 - Adjusted logic and timing so player doesn't get spawn-camped
 - Fixed logic to prevent killable sprite on new save

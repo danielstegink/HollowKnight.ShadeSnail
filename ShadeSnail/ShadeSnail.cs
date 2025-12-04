@@ -22,7 +22,7 @@ namespace ShadeSnail
         }
         #endregion
 
-        public override string GetVersion() => "1.1.0.0";
+        public override string GetVersion() => "1.2.0.0";
 
         public override void Initialize(Dictionary<string, Dictionary<string, GameObject>> preloadedObjects)
         {
